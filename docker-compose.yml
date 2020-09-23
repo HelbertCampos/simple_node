@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  app1:
+    image: exemplo/simple_node:1.0.0
+    container_name: app1
+    restart: on-failure
+    ports:
+      - "8001:3000"
+    environment:
+      - NODE_TEST_DOCKER=Aplicação 1
+
+  app2:
+    image: exemplo/simple_node:1.0.0
+    container_name: app2
+    restart: on-failure
+    ports:
+      - "8002:3000"
+    environment:
+      - NODE_TEST_DOCKER=Aplicação 2
+
+  app3:
+    image: exemplo/simple_node:1.0.0
+    container_name: app3
+    restart: on-failure
+    ports:
+      - "8003:3000"
+    environment:
+      - NODE_TEST_DOCKER=Aplicação 3
