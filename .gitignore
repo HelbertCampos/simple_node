@@ -1,0 +1,8 @@
+# diretórios ignorados
+node_modules/
+
+# arquivos ignorados
+.DS_Store
+.env
+.env.dev
+.env.staging

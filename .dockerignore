@@ -1,0 +1,13 @@
+# diretórios ignorados
+node_modules/
+.git
+
+# arquivos ignorados
+.gitignore
+.DS_Store
+.env*
+.eslintrc.json
+*.md
+.prettier*
+Dockerfile
+.dockerignore
